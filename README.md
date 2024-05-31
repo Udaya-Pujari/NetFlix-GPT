@@ -16,7 +16,17 @@
 - Created our redux store with userSlice
 - implemented sign out feature
 - update profile api call
-- next :api fetch call from TMDb movies
+- unsubscribed to the onAuthstaechange calll back
+- add hardcode url to the constant files
+- api fetch call from TMDb movies after registering the TMDB ,and getting access token
+- custom hooks for now playing movies
+- updated store with moviesData
+- created movieSlice
+- planning UI
+- fetch data from trailer video
+- updated the store with trailer data
+- embeded with youtube with autoplay feature
+
 # Features
 
 - Login/Sign Up
