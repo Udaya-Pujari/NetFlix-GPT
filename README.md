@@ -26,6 +26,14 @@
 - fetch data from trailer video
 - updated the store with trailer data
 - embeded with youtube with autoplay feature
+- built movie list
+- built movie card
+- TMDB Image CDN URL
+- browser page has been implemented with tailwind css
+- usePopularMoves custom hook
+- Buliding the GPT search bar
+- added multi-language feature in my app
+- Need to integrate GPT API(get the open AI key)
 
 # Features
 
