@@ -34,6 +34,12 @@
 - Buliding the GPT search bar
 - added multi-language feature in my app
 - Need to integrate GPT API(get the open AI key)
+- // export const OPENAI_KEY =
+//   "sk-proj-qTHYERHMJvzdlTTBVKGQT3BlbkFJPEMNKPn3jqUnbBzWiIXb";
+- insted of openAI I have used Gemini AI
+- completed gpt search bar
+- added the .env file for the hiding the api keys i.e secret keys
+- Completed the momoisation
 
 # Features
 

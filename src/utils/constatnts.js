@@ -5,8 +5,7 @@ export const API_OPTIONS = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjMGVmMDA2MWQ4ZWI3NWJmZTVhMDI3YmFiMjA4ZGM4ZCIsInN1YiI6IjY2NTgzYjA5YTJjZmE1ZmI0YTc0ZGY0YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EqrV-zI4hCkUrNl8sLKekAUyYeRt-lQ3uM4lQaAngMk",
+    Authorization: "Bearer " + process.env.REACT_APP_TMDB_KEY,
   },
 };
 
@@ -21,5 +20,8 @@ export const SUPPORTED_LANGUAGES = [
   { identifier: "kannada", name: "Kannada" },
 ];
 
-export const OPENAI_KEY =
-  "sk-proj-qTHYERHMJvzdlTTBVKGQT3BlbkFJPEMNKPn3jqUnbBzWiIXb";
+// export const OPENAI_KEY =
+//   "sk-proj-Fo43TjexVdDpLlpD8cE3T3BlbkFJqEpbqLCKLYGRgNFe8jTS";
+
+//logged in from dummy194194@gmail.com
+export const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;

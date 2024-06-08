@@ -1,4 +1,4 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { API_OPTIONS } from "../utils/constatnts";
 import { addNowPlayingMovies } from "../utils/moviesSlice";
 import { useEffect } from "react";
@@ -6,6 +6,10 @@ import { useEffect } from "react";
 const useNowPlayingMovies = () => {
   //in this component what we are doing is we are trying to fetch TNDB api and update the store
   const dispatch = useDispatch();
+
+  const nowPlayingMovies = useSelector(
+    (store) => store.movies.nowPlayingMovies
+  );
 
   const getNowPlayingMovies = async () => {
     const data = await fetch(
@@ -21,7 +25,7 @@ const useNowPlayingMovies = () => {
   };
 
   useEffect(() => {
-    getNowPlayingMovies();
+    !nowPlayingMovies && getNowPlayingMovies();
   }, []);
 };
 
