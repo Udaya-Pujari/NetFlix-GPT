@@ -35,11 +35,15 @@
 - added multi-language feature in my app
 - Need to integrate GPT API(get the open AI key)
 - // export const OPENAI_KEY =
-//   "sk-proj-qTHYERHMJvzdlTTBVKGQT3BlbkFJPEMNKPn3jqUnbBzWiIXb";
+  // "sk-proj-qTHYERHMJvzdlTTBVKGQT3BlbkFJPEMNKPn3jqUnbBzWiIXb";
 - insted of openAI I have used Gemini AI
 - completed gpt search bar
 - added the .env file for the hiding the api keys i.e secret keys
-- Completed the momoisation
+- adding .env file to git ignore
+- Completed the momoization
+- Reused the MovieList cmponent for the movie serach suggestions
+- Making the page responsive
+- NOTE: bg-black sm:bg-blue-900 md:bg-green-600 (this is for media query by tailwind sm for tab, md for laptop screens and I have given bg-black that is for the mobile)
 
 # Features
 
